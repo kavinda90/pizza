@@ -1754,12 +1754,12 @@ body.header-below:not(.template-slider) #Header {
 .header-split #Header .top_bar_left, .header-split #Header .top_bar_right {
 	background-color: transparent;
 }
-.header-split #Header .top_bar_left .menu_wrapper {
+/* .header-split #Header .top_bar_left .menu_wrapper {
 	width: 100%;
-}
+} */
 .header-split #Header .top_bar_left .menu_left {
 	float: left;
-	width: 38%;
+	/* width: 38%; */
 	text-align: center;
 }
 .header-split #Header .top_bar_left .menu_right {
@@ -1771,18 +1771,19 @@ body.header-below:not(.template-slider) #Header {
 	display: inline-block;
 	float: none;
 }
-.header-split #Header .top_bar_left .logo {
+/* .header-split #Header .top_bar_left .logo {
 	width: 100%;
 	margin: 0;
 	text-align: center;
-}
-@media only screen and (min-width: 1240px) {
+} */
+/* @media only screen and (min-width: 1240px) {
 	.header-split #Header .top_bar_left .logo {
 		position: absolute;
 		left: 38%;
 		width: 24%;
 	}
-}
+} */
+
 .header-split #Top_bar .top_bar_right {
 	position: absolute;
 	top: 0;
@@ -7452,5 +7453,70 @@ html, body {
 @media only screen and (max-device-width: 1024px) {
 	html.ios, .ios .section.bg-cover {
 		background-attachment: scroll!important
+	}
+}
+
+/* custom code */
+
+.delivery {
+	display: flex;
+}
+
+.delivery a h5{
+	letter-spacing: 0;
+	font-weight: 600;
+}
+
+.delivery a h5:first-child{
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+#Top_bar.is-sticky .delivery a h5:first-child{
+	margin-top: 0;
+}
+
+#Top_bar.is-sticky .delivery .delivery_img{
+	padding-top: 2px;
+}
+
+.header-split #Header .top_bar_left .delivery {
+	float: right;
+}
+.delivery a{
+	padding: 15px 0;
+	display: block;
+}
+
+.delivery .delivery_img {
+	max-width: 38px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.delivery .delivery_text {
+	float: right;
+}
+
+@media only screen and (max-width: 1239px) {
+	.delivery {
+		margin-right: 70px!important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.delivery {
+		width: 100%!important;
+		margin: auto!important;
+		justify-content: center;
+	}
+	.delivery .delivery_img{
+		padding-top: 8px;
+	}
+}
+
+@media only screen and (max-width: 1239px) {
+	#Top_bar.is-sticky a.responsive-menu-toggle {
+		top: 18px;
 	}
 }
