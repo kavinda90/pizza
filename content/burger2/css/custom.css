@@ -1,0 +1,114 @@
+/*Navigation bar*/
+
+.delivery {
+	display: flex;
+}
+
+.delivery a h5{
+	letter-spacing: 0;
+	font-weight: 600;
+}
+
+.delivery a h5:first-child{
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+#Top_bar.is-sticky .delivery a h5:first-child{
+	margin-top: 0;
+}
+
+#Top_bar.is-sticky .delivery .delivery_img{
+	padding-top: 2px;
+}
+
+.header-split #Header .top_bar_left .delivery {
+	float: right;
+}
+.delivery a{
+	padding: 15px 0;
+	display: block;
+}
+
+.delivery .delivery_img {
+	max-width: 38px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.delivery .delivery_text {
+	float: right;
+}
+
+@media only screen and (max-width: 1239px) {
+	.delivery {
+		margin-right: 70px!important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.delivery {
+		width: 100%!important;
+		margin: auto!important;
+		justify-content: center;
+	}
+	.delivery .delivery_img{
+		padding-top: 8px;
+	}
+}
+
+@media only screen and (max-width: 1239px) {
+	#Top_bar.is-sticky a.responsive-menu-toggle {
+		top: 18px;
+	}
+}
+
+/*Banner*/
+.rev_slider.fullscreenbanner {
+    max-height: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100vh;
+    display: flex;
+    background: url(../images/burger2-slider-bg.jpg);
+    padding: 140px 15px 240px 15px;
+}
+
+.banner_txt_container {
+    display: flex;
+    flex: 1;
+}
+
+.banner_img_container {
+    display: flex;
+    flex: 1;
+}
+
+.banner_big_pizza {
+    position: absolute;
+}
+
+.banner_right_pizza {
+    position: relative;
+    left: 352px;
+    top: 148px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+    z-index: 1;
+}
+
+.banner_bottom_pizza {
+    position: relative;
+    left: 37px;
+    top: 329px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+}
+
+.banner_left_pizza {
+    position: relative;
+    left: -594px;
+    top: 321px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+}
