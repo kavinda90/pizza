@@ -5,7 +5,7 @@ window.addEventListener("scroll", function () {
     var parallaxContent3 = document.querySelector(".banner_left_pizza");
     
     var scrollPosition = window.pageYOffset;
-    parallaxContent.style.transform = "translateX(" + scrollPosition * 0.4 + "px)";
+    parallaxContent.style.transform = "translateX(" + scrollPosition * 0.3 + "px)";
     parallaxContent2.style.transform = "translate(" + scrollPosition * 0.3 + "px, " + scrollPosition * 0.2 + "px)";
     parallaxContent3.style.transform = "translateY(" + scrollPosition * 0.2 + "px)";
 });
