@@ -1,3 +1,10 @@
+h2 {
+    font-weight: 600;
+}
+h5 {
+    margin-bottom: 0;
+}
+
 /*Navigation bar*/
 
 #Top_bar #logo {
@@ -229,4 +236,226 @@
     .banner_img_container {
         display: none;
     }
+    /*test*/
 }
+
+/*Why make best pizza*/
+
+.custom-fullheight {
+    display: flex;
+    /* padding-bottom: 250px; */
+}
+
+.custom-one-fourth {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.custom-one-second {
+    flex: 2;
+}
+
+.custom-one-second img {
+    position: relative;
+    z-index: 3333;
+}
+
+.custom-one-second img:hover {
+    margin-left: -20px;
+    transition: margin-left .5s;
+}
+
+.custom-best-section {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    margin-left: -35px;
+    position: relative;
+}
+
+.custom-one-fourth.right-side .custom-best-section {
+    flex-direction: row-reverse;
+}
+
+.best-section-icon {
+    z-index: -1;
+}
+
+.custom-one-fourth.left-side .best-section-contents {
+    position: absolute;
+    left: 35px;
+    top: 45px;
+}
+
+.custom-one-fourth.right-side .best-section-contents {
+    position: absolute;
+    right: 35px;
+    bottom: 26px;
+}
+
+.best-section-icon-type-text {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 100px;
+    color: #fff;
+    text-shadow: 0 0 11px rgba(38,61,128,.06);
+}
+
+.best-section-title {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: none;
+    font-style: normal;
+}
+
+h5 {
+    color: #ffb200;
+}
+
+.best-section-contents-inner-wrap {
+    margin-top: -5px;
+}
+
+.bs-circle-box {
+    position: relative;
+    z-index: 1;
+}
+
+.bs-circle-box::before {
+    left: 23px;
+    top: 30px;
+    width: 502px;
+    height: 502px;
+    background-color: #ffb200;
+    position: absolute;
+    content: '';
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.bs-circle-box::after {
+    width: 549px;
+    height: 556px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../images/circle-ellipse.png);
+    position: absolute;
+    content: '';
+    z-index: -1;
+}
+
+.custom-bs-wrapper {
+    margin-bottom: 50px;
+}
+
+.custom-bs-wrapper.bottom-section {
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 1240px) {
+    .section_wrapper {
+        max-width: 1200px;
+    }
+}
+
+/*menu section*/
+
+.popular-menu-section {
+    background: url(../images/burger2-slider-bg.jpg)!important;
+}
+
+.menu-section {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -220px;
+}
+
+.menu-list-wrapper {
+    display: flex;
+    column-gap: 50px;
+}
+
+.menu-list{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    column-gap: 20px;
+}
+
+.menu-item .menu-item-image {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.menu-item .menu-item-content {
+    flex: 1;
+}
+
+.menu-item .menu-item-content .menu-item-name {
+    margin-bottom: 10px;
+}
+
+.menu-item .menu-item-price {
+    font-weight: 700;
+    color: #ffb200;
+}
+
+.offer-section {
+    padding-top: 75px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.offer-section h2, .offer-section p {
+    color: #fff;
+}
+
+.offer-section .offer-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.offer-txt-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.countdown-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.countdown-wrapper .cd-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.cd-item h2 {
+    color: #ffb200;
+    margin-bottom: 0;
+}
+
+.offer-section .banner_cta {
+    padding-top: 20px;
+}
+
