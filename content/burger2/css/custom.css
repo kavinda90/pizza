@@ -242,7 +242,7 @@ h5 {
 
 .custom-fullheight {
     display: flex;
-    padding-bottom: 250px;
+    /* padding-bottom: 250px; */
 }
 
 .custom-one-fourth {
@@ -254,6 +254,16 @@ h5 {
 
 .custom-one-second {
     flex: 2;
+}
+
+.custom-one-second img {
+    position: relative;
+    z-index: 3333;
+}
+
+.custom-one-second img:hover {
+    margin-left: -20px;
+    transition: margin-left .5s;
 }
 
 .custom-best-section {
@@ -366,7 +376,7 @@ h5 {
     padding: 60px 40px;
     display: flex;
     flex-direction: column;
-    top: -220px;
+    margin-top: -220px;
 }
 
 .menu-list-wrapper {
@@ -405,5 +415,46 @@ h5 {
 .menu-item .menu-item-price {
     font-weight: 700;
     color: #ffb200;
+}
+
+.offer-section {
+    padding-top: 75px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.offer-section h2, .offer-section p {
+    color: #fff;
+}
+
+.offer-section .offer-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.offer-txt-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.countdown-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.countdown-wrapper .cd-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.cd-item h2 {
+    color: #ffb200;
+    margin-bottom: 0;
+}
+
+.offer-section .banner_cta {
+    padding-top: 20px;
 }
 
