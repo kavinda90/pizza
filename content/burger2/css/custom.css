@@ -621,3 +621,40 @@ h5 {
     width: 50%;
     text-align: center !important;
 }
+
+/*footer*/
+
+.footer-time {
+    color: #ffb200;
+}
+
+/*company*/
+
+/* .section-parallax {
+    background-image: url("../images/parallax-image.jpg");
+  
+    min-height: 500px; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.ParallaxVideo{ 
+    height: 300px;
+    padding-bottom: 50px;
+    padding-top: 50px; 
+}
+.ParallaxVideo video{ 
+    min-width: 100%;
+    position: fixed;
+    top:-350px;
+    z-index: -999;
+}
+
+/*menu*/
+
+.om_image {
+    object-fit: cover;
+}

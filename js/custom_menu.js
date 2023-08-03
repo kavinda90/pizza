@@ -57,14 +57,14 @@ function displayMenuItems(){
             str += "<div class='om_item_details_item spaned om_item_des'>" + ourMenuData[i]["desc"] + "</div>"
             str += "<div class='om_item_details_item om_item_price'>" + ourMenuData[i]["price"] + "</div>"
             str += "<div class='om_item_details_item'>"
-            str += "<a class='om_order_button' href='#'>Order</a></div></div>"
+            str += "<a class='cus_button button_nofill' style='padding-left: 20px; padding-right: 20px; text-decoration:none' href='#'>Order</a></div></div>"
 
         } else {
             str += "<div class='om_item_details'><div class='om_item_details_item spaned om_item_title'>" + ourMenuData[i]['title']  + "</div>"
             str += "<div class='om_item_details_item spaned om_item_des'>" + ourMenuData[i]["desc"] + "</div>"
             str += "<div class='om_item_details_item om_item_price'>" + ourMenuData[i]["price"]  + "</div>"
             str += "<div class='om_item_details_item'>"
-            str += "<a class='om_order_button' href='#'>Order</a></div></div>"
+            str += "<a class='cus_button button_nofill' style='padding-left: 20px; padding-right: 20px; text-decoration:none' href='#'>Order</a></div></div>"
             str += "<div class='om_main_image'>";
             str += "<img class='om_image' "+ "src='"+ ourMenuData[i]['image']+ "'/></div>";
         }
