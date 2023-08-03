@@ -12,31 +12,31 @@ window.addEventListener("scroll", function () {
 
 var popularPizza1 = [
     {
-        "name": "Fresh Slice Pizza",
-        "desc": "Classic greek salad, barrel aged feta cheese, bread",
-        "price": 45.50,
-        "url": "content/burger2/images/img-04-1.png"
+        "name": "The Great Beyond",
+        "desc": "Beyond Meat Italian Sausage Crumble, hot peppers, Red Onion, and Pizza Mozzarella.",
+        "price": 23,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/220px-Pizza-3007395.jpg"
     },
     {
-        "name": "Fresh Slice Pizza",
-        "desc": "Classic greek salad, barrel aged feta cheese, bread",
-        "price": 45.50,
-        "url": "content/burger2/images/img-04-1.png"
+        "name": "Meat Lover's®",
+        "desc": "Pepperoni, Italian sausage, mild sausage, beef topping, ham, bacon crumble and pizza mozzarella.",
+        "price": 23,
+        "url": "https://www.glutenfreepalate.com/wp-content/uploads/2018/08/Gluten-Free-Pizza-3.2.jpg"
     }
 ]
 
 var popularPizza2 = [
     {
-        "name": "Fresh Slice Pizza",
-        "desc": "Classic greek salad, barrel aged feta cheese, bread",
-        "price": 45.50,
-        "url": "content/burger2/images/img-04-1.png"
+        "name": "BBQ Chicken",
+        "desc": "BBQ sauce, seasoned grilled chicken breast, red onion, green peppers, smoked aged cheddar and pizza mozzarella.",
+        "price": 23,
+        "url": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg?w=1380&t=st=1690967543~exp=1690968143~hmac=062a1a2e03023bed79229df3a3d86b513d860733d7a7dbc551bdd8f5ca43f3e0"
     },
     {
-        "name": "Fresh Slice Pizza",
-        "desc": "Classic greek salad, barrel aged feta cheese, bread",
-        "price": 45.50,
-        "url": "content/burger2/images/img-04-1.png"
+        "name": "Veggie Lover's®",
+        "desc": "Sliced mushrooms, green pepper, red onion, tomato and pizza mozzarella.",
+        "price": 23,
+        "url": "https://www.thespruceeats.com/thmb/MD-dSsFP6k5XBSk9XcdOIfnF4K0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/prosciutto-pizza-4844358-hero-04-c0a6f73057ce4fed88982b75a5c2c8e1.jpg"
     }
 ]
 

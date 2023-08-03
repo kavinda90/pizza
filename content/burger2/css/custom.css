@@ -405,6 +405,11 @@ h5 {
     overflow: hidden;
 }
 
+.menu-item-image img {
+    height: 100%!important;
+    object-fit: cover;
+}
+
 .menu-item .menu-item-content {
     flex: 1;
 }
