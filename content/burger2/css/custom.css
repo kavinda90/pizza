@@ -664,3 +664,13 @@ h5 {
     object-fit: cover;
     width: 100%;
 }
+
+@media (max-width: 767px) {
+	.om_container{
+        display: grid;
+        grid-template-columns : 100%;
+        grid-template-rows:  16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+        
+    }
+	
+}
