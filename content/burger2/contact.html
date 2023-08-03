@@ -33,7 +33,6 @@
     <link rel='stylesheet' href='css/structure.css'>
     <link rel='stylesheet' href='css/burger2.css'>
     <link rel='stylesheet' href='css/custom.css'>
-    <link rel="stylesheet" href="css/robin.css">
 
 </head>
 
@@ -219,14 +218,27 @@
                                                     <form id="contactform" action="https://formspree.io/f/moqojydw" method="POST">
                                                         <!-- One Second (1/2) Column -->
                                                         <div class="column one-second">
-                                                            <input placeholder="Your name" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
+                                                            <input placeholder="Your name" type="text" name="name" id="name" size="40" required />
                                                         </div>
                                                         <!-- One Second (1/2) Column -->
                                                         <div class="column one-second">
-                                                            <input placeholder="Your e-mail" type="email" name="email" id="email" size="40" aria-required="true" aria-invalid="false" />
+                                                            <input placeholder="Your e-mail" type="email" name="email" id="email" size="40" />
+                                                        </div>
+                                                        <div class="column one-second">
+                                                            <input placeholder="Your phone" type="text" name="phone" id="phone" size="40" aria-invalid="false" />
+                                                        </div>
+                                                        <div class="column one-second">
+                                                            <input placeholder="Subject" type="text" name="subject" id="subject" size="40" aria-invalid="false" />
                                                         </div>
                                                         <div class="column one">
-                                                            <input placeholder="Subject" type="text" name="subject" id="subject" size="40" aria-invalid="false" />
+                                                            <select name="type" id="contactType" onchange="showForm()">
+                                                                <option value="0">Reservation</option>
+                                                                <option value="1">Order Online</option>
+                                                                <option value="2">Other</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="column one" id="order-items">
+                                                            
                                                         </div>
                                                         <div class="column one">
                                                             <textarea placeholder="Message" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
@@ -350,7 +362,8 @@
     <script src="../../js/animations/animations.js"></script>
     <script src="../../js/translate3d.js"></script>
     <script src="../../js/scripts.js"></script>
-	 <script src="../../js/email.js"></script>
+    <script src="../../js/custom.js"></script>
+	 <!-- <script src="../../js/email.js"></script> -->
 
 
 </body>
