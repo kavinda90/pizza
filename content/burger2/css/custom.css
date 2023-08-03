@@ -383,6 +383,17 @@ h5 {
     }
 }
 
+@media (max-width: 767px) {
+    .bs-circle-box::after {
+        display: none;
+    }
+
+    .bs-circle-box::before {
+        display: none;
+    }
+}
+
+
 /*menu section*/
 
 .popular-menu-section {
