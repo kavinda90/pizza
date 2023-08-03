@@ -564,6 +564,11 @@ h5 {
         flex: 1;
     }
 }
+@media only screen and (max-width: 767px) {
+    .menu-list-wrapper {
+        flex-direction: column;
+    }
+}
 
 
 /*our menu*/
